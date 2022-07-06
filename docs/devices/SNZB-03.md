@@ -41,6 +41,8 @@ Value can be found in the published state on the `occupancy` property.
 It's not possible to read (`/get`) or write (`/set`) this value.
 If value equals `true` occupancy is ON, if `false` OFF.
 
+The fixed devices occupancy timeout is around 64 seconds to fall back to `false` after switching to `true`.
+
 ### Battery_low (binary)
 Indicates if the battery of this device is almost empty.
 Value can be found in the published state on the `battery_low` property.
